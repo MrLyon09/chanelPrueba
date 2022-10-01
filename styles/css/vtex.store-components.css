@@ -14,7 +14,13 @@
   display:flex;
 }
 
+.imageElement--portFinal{
+  
+  height: 600px;
+  width: 1920px;
+  display: flex;
 
+}
 .newsletter {
   background-color: #edeef8;
   max-width: 1528px;
@@ -116,7 +122,8 @@
 }
 
 .searchBarContainer{
-  min-width: 600px;
+  min-width: 625px;
+  
 }
 
 
