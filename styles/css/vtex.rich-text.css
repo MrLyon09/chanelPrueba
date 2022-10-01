@@ -1,0 +1,22 @@
+.imageElement--imgTop{
+    aspect-ratio: auto 1280 / 402;
+}
+
+.paragraph--anuncioHome{
+    font-family: 'Gothambold';
+    text-align: center;
+    color:rgb(67, 3, 9);
+    padding: auto;
+    max-width: 1140;
+    font-weight: bold;
+    
+}
+.container--anuncioHome{
+    text-align: center;
+    margin-top: 3%;
+}
+.paragraph--invite{
+    font-size: 18px;
+    font-family: "GothamBook";
+    color:rgb(67, 3, 9);
+}

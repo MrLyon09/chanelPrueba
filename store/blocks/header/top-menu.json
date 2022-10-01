@@ -1,0 +1,28 @@
+{
+  "vtex.menu@2.x:menu#websites": {
+    "children": [
+      "menu-item#shop"
+
+    ]
+  },
+  "menu-item#shop": {
+    "props": {
+      "id": "menu-top",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "EL UNIVERSO DE FRAGANCIAS CHANEL YA DISPONIBLE.",
+        "textAlignament":"CENTER",
+        "textPosition":"CENTER",
+        "font":"t-heading-2",
+        "textColor":"c-on-emphasis"
+
+      }
+    }
+  }
+}

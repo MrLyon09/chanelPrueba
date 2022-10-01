@@ -1,0 +1,668 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "menu-item#category-sets",
+      "menu-item#category-marcas",
+      "menu-item#category-novedades",
+      "menu-item#category-fragancias",
+      "menu-item#category-cuidado del rostro",
+      "menu-item#category-maquillaje",
+      "menu-item#category-cuidado corporal",
+      "menu-item#category-home-mas vendidos",
+      "menu-item#sale"
+    ]
+  },
+  "menu-item#category-marcas": {
+    "props": {
+      "id": "menu-item-category-marcas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/marcas",
+        "noFollow": false,
+        "tagTitle": "marcas",
+        "text": "MARCAS"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-marcas"
+    ]
+  },
+
+  "vtex.menu@2.x:submenu#category-marcas": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-marcas"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-marcas": {
+    "props": {
+      "orientation": "horizontal"
+    },
+    "children": [
+      "menu-item#category-marcas nuevas",
+      "menu-item#category-marcas exclusivas",
+      "menu-item#category-marcas mas buscadas"
+    ]
+  },
+  "menu-item#category-marcas nuevas": {
+    "props": {
+      "id": "menu-item-category-marcas nuevas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/marcas---nuevas/nuevas/",
+        "noFollow": false,
+        "tagTitle": "nuevas",
+        "text": "MARCAS NUEVAS"
+      }
+    }
+  },
+  "menu-item#category-marcas exclusivas": {
+    "props": {
+      "id": "menu-item-category-marcas exclusivas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/marcas--- exclusivas/exclusivas/",
+        "noFollow": false,
+        "tagTitle": "exclusivas",
+        "text": "MARCAS EXCLUSIVAS"
+      }
+    }
+  },
+  "menu-item#category-marcas mas buscadas": {
+    "props": {
+      "id": "menu-item-category-marcas mas buscadas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/marcas--- mas buscadas/mas buscadas/",
+        "noFollow": false,
+        "tagTitle": "mas buscadas",
+        "text": "MAS BUSCADAS"
+      }
+    }
+  },
+
+  "menu-item#category-sets": {
+    "props": {
+      "id": "menu-item-category-sets",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sets",
+        "noFollow": false,
+        "tagTitle": "SETS",
+        "text": "SETS"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-sets"
+    ]
+  },
+
+  "vtex.menu@2.x:submenu#category-sets": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-sets"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-sets": {
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  "menu-item#category-novedades": {
+    "props": {
+      "id": "menu-item-category-novedades",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/novedades",
+        "noFollow": false,
+        "tagTitle": "novedadeS",
+        "text": "NOVEDADES"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-novedades"
+    ]
+  },
+
+  "vtex.menu@2.x:submenu#category-novedades": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-novedades"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-novedades": {
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+
+  "menu-item#category-fragancias": {
+    "props": {
+      "id": "menu-item-category-fragancias",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fragancias",
+        "noFollow": false,
+        "tagTitle": "fragancias",
+        "text": "FRAGANCIAS"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-fragancias"
+    ]
+  },
+
+  "vtex.menu@2.x:submenu#category-fragancias": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-fragancias"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-fragancias": {
+    "props": {
+      "orientation": "horizontal"
+    },
+    "children": [
+      "menu-item#category-fragancias-novedades",
+      "menu-item#category-fragancias-mas vendidos",
+      "menu-item#category-fragancias-femeninas",
+      "menu-item#category-fragancias-masculinas"
+
+    ]
+  },
+  "menu-item#category-fragancias-novedades": {
+    "props": {
+      "id": "menu-item-category-novedades",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/---novedades/novedades/",
+        "noFollow": false,
+        "tagTitle": "novedades",
+        "text": "NOVEDADES"
+      }
+    }
+  },
+  "menu-item#category-fragancias-mas vendidos": {
+    "props": {
+      "id": "menu-item-category-fragancias-mas vendidos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fragancias---mas vendidos/mas vendidos/",
+        "noFollow": false,
+        "tagTitle": "fragancias mas vendidos",
+        "text": "MAS VENDIDOS"
+      }
+    }
+  },
+  "menu-item#category-fragancias-femeninas": {
+    "props": {
+      "id": "menu-item-category-fragancias-femeninas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fragancias---femeninas/femeninas/",
+        "noFollow": false,
+        "tagTitle": "fragancias femeninas",
+        "text": "FEMENINAS"
+      }
+    }
+  },
+ "menu-item#category-fragancias-masculinas": {
+    "props": {
+      "id": "menu-item-category-fragancias-masculinas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fragancias---masculinas/masculinas/",
+        "noFollow": false,
+        "tagTitle": "fragancias masculinas",
+        "text": "MASCULINAS"
+      }
+    }
+  },
+
+  "menu-item#category-cuidado del rostro": {
+    "props": {
+      "id": "menu-item-category-cuidado del rostro",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cuidado del rostro",
+        "noFollow": false,
+        "tagTitle": "cuidado del rostro",
+        "text": "CUIDADO DEL ROSTRO"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-cuidado del rostro"
+    ]
+  },
+
+  "vtex.menu@2.x:submenu#category-cuidado del rostro": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-cuidado del rostro"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-cuidado del rostro": {
+    "props": {
+      "orientation": "horizontal"
+    },
+    "children": [
+      "menu-item#category-nuevos",
+      "menu-item#category-cuidado del rostro-por preocupacion",
+      "menu-item#category-cuidado del rostro-limpiadores",
+      "menu-item#category-cuidado del rostro-hidratantes"
+    ]
+  },
+  "menu-item#category-nuevos": {
+    "props": {
+      "id": "menu-item-category-nuevos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cuidado del rostro---nuevos/nuevos/",
+        "noFollow": false,
+        "tagTitle": "nuevos",
+        "text": "NOVEDADES"
+      }
+    }
+  },
+  "menu-item#category-cuidado del rostro-por preocupacion": {
+    "props": {
+      "id": "menu-item-category-cuidado del rostro-por preocupacion",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cuidado del rostro---por preocupacion/por preocupacion/",
+        "noFollow": false,
+        "tagTitle": "cuidado del rostro por preocupacion",
+        "text": "POR PREOCUPACION"
+      }
+    }
+  },
+  "menu-item#category-cuidado del rostro-limpiadores": {
+    "props": {
+      "id": "menu-item-category-cuidado del rostro-limpiadores",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cuidado del rostro---limpiadores/limpiadores/",
+        "noFollow": false,
+        "tagTitle": "cuidado del rostro limpiadores",
+        "text": "LIMPIADORES"
+      }
+    }
+  },
+ "menu-item#category-cuidado del rostro-hidratantes": {
+    "props": {
+      "id": "menu-item-category-cuidado del rostro-hidratantes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cuidado del rostro---hidratantes/hidratantes/",
+        "noFollow": false,
+        "tagTitle": "cuidado del rostro hidratantes",
+        "text": "HIDRATANTES"
+      }
+    }
+  },
+
+  "menu-item#category-maquillaje": {
+    "props": {
+      "id": "menu-item-category-maquillaje",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/maquillaje",
+        "noFollow": false,
+        "tagTitle": "maquillaje",
+        "text": "MAQUILLAJE"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-maquillaje"
+    ]
+  },
+
+  "vtex.menu@2.x:submenu#category-maquillaje": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-maquillaje"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-maquillaje": {
+    "props": {
+      "orientation": "horizontal"
+    },
+    "children": [
+      "menu-item#category-maquillaje-rostro",
+      "menu-item#category-maquillaje-ojos",
+      "menu-item#category-maquillaje-labios",
+      "menu-item#category-maquillaje-accesorios"
+
+    ]
+  },
+  "menu-item#category-maquillaje-rostro": {
+    "props": {
+      "id": "menu-item-category-maquillaje-rostro",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/maquillaje---rostro/rostro/",
+        "noFollow": false,
+        "tagTitle": "maquillaje-rostro",
+        "text": "ROSTRO"
+      }
+    }
+  },
+  "menu-item#category-maquillaje-ojos": {
+    "props": {
+      "id": "menu-item-category-maquillaje-ojos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/maquillaje---ojos/ojos/",
+        "noFollow": false,
+        "tagTitle": "maquillaje-ojos",
+        "text": "OJOS"
+      }
+    }
+  },
+  "menu-item#category-maquillaje-labios": {
+    "props": {
+      "id": "menu-item-category-maquillaje-labios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/maquillaje---labios/labios/",
+        "noFollow": false,
+        "tagTitle": "maquillaje-labios",
+        "text": "LABIOS"
+      }
+    }
+  },
+  "menu-item#category-maquillaje-accesorios": {
+    "props": {
+      "id": "menu-item-category-maquillaje-accesorios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/maquillaje---accesorios/accesorios/",
+        "noFollow": false,
+        "tagTitle": "maquillaje-accesorios",
+        "text": "ACCESORIOS"
+      }
+    }
+  },
+
+  //CUIDADO CORPORAL
+  "menu-item#category-cuidado corporal": {
+    "props": {
+      "id": "menu-item-category-cuidado corporal",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cuidado corporal",
+        "noFollow": false,
+        "tagTitle": "cuidado corporal",
+        "text": "CUIDADO CORPORAL"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-cuidado corporal"
+    ]
+  },
+
+  "vtex.menu@2.x:submenu#category-cuidado corporal": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-cuidado corporal"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-cuidado corporal": {
+    "props": {
+      "orientation": "horizontal"
+    },
+    "children": [
+      "menu-item#category-cuidado corporal-cuerpo",
+      "menu-item#category-cuidado corporal-baño",
+      "menu-item#category-cuidado corporal-accesorios"
+    ]
+  },
+
+  "menu-item#category-cuidado corporal-cuerpo": {
+    "props": {
+      "id": "menu-item-category-cuidado corporal-cuerpo",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cuidado corporal---cuerpo/cuerpo/",
+        "noFollow": false,
+        "tagTitle": "cuidado corporal cuerpo",
+        "text": "CUERPO"
+      }
+    }
+  },
+  "menu-item#category-cuidado corporal-baño": {
+    "props": {
+      "id": "menu-item-category-cuidado corporal-baño",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cuidado corporal---baño/limpiadores/",
+        "noFollow": false,
+        "tagTitle": "cuidado corporal baño",
+        "text": "BAÑO"
+      }
+    }
+  },
+ "menu-item#category-cuidado corporal-accesorios": {
+    "props": {
+      "id": "menu-item-category-cuidado corporal-accesorios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cuidado corporal---accesorios/accesorios/",
+        "noFollow": false,
+        "tagTitle": "cuidado corporal accesorios",
+        "text": "ACCESORIOS"
+      }
+    }
+  },
+
+  //CATEGORIA HOME
+  "menu-item#category-home-mas vendidos": {
+    "props": {
+      "id": "menu-item-category-home-mas vendidos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/home-mas vendidos---mas vendidos/",
+        "noFollow": false,
+        "tagTitle": "home-mas vendidos",
+        "text": "MAS VENDIDOS"
+      }
+    }
+  },
+
+  //MENU SALE
+
+  "menu-item#sale": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "sale",
+        "text": "SALE"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#sale"
+    ]
+  },
+  "vtex.menu@2.x:submenu#sale": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#menu-sale"
+    ]
+  },
+  "flex-layout.row#menu-sale": {
+    "children": [
+      "flex-layout.col#menu-sale-1",
+      "flex-layout.col#menu-sale-2"
+    ]
+  },
+  "flex-layout.col#menu-sale-1": {
+    "children": [
+      "vtex.menu@2.x:menu#sale"
+    ]
+  },
+  "flex-layout.col#menu-sale-2": {
+    "children": [
+    //  "info-card#home"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#sale": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#about-us",
+      "menu-item#faq"
+    ]
+  },
+  "menu-item#about-us": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "About us"
+      }
+    }
+  },
+  "menu-item#faq": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "FAQ",
+        "text": "FAQ"
+      }
+    }
+  },
+  "menu-item#contact-us": {
+    "props": {
+      "id": "menu-item-contact-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/contact-us",
+        "noFollow": true,
+        "tagTitle": "Contact Us",
+        "text": "Contact Us"
+      }
+    }
+  }
+}
