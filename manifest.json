@@ -10,7 +10,6 @@
   "scripts": {
     "postreleasy": "vtex publish --verbose"
   },
-  
   "dependencies": {
     "vtex.store": "2.x",
     "vtex.store-header": "2.x",
@@ -46,23 +45,21 @@
     "vtex.sticky-layout": "0.x",
     "vtex.add-to-cart-button": "0.x",
     "vtex.store-image": "0.x",
-    "vtex.product-customizer":"2.x",
-    "vtex.product-specification-badges":"0.x",
-    "vtex.checkout-summary":"0.x",
-    "vtex.product-list":"0.x",
-    "vtex.product-bookmark-interfaces":"1.x",
-    "vtex.store-icons":"0.x",
-    "vtex.modal-layout":"0.x",
-    "vtex.store-link":"0.x",
-    "vtex.store-video":"1.x",
-    "vtex.product-gifts":"0.x",
-    "vtex.product-price":"1.x",
-    "vtex.disclosure-layout":"1.x",
-    "vtex.store-form":"0.x",
-    "vtex.product-highlights":"2.x",
-    "vtex.product-specifications":"1.x"
-    
-
+    "vtex.product-customizer": "2.x",
+    "vtex.product-specification-badges": "0.x",
+    "vtex.checkout-summary": "0.x",
+    "vtex.product-list": "0.x",
+    "vtex.product-bookmark-interfaces": "1.x",
+    "vtex.store-icons": "0.x",
+    "vtex.modal-layout": "0.x",
+    "vtex.store-link": "0.x",
+    "vtex.store-video": "1.x",
+    "vtex.product-gifts": "0.x",
+    "vtex.product-price": "1.x",
+    "vtex.disclosure-layout": "1.x",
+    "vtex.store-form": "0.x",
+    "vtex.product-highlights": "2.x",
+    "vtex.product-specifications": "1.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

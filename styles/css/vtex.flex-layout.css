@@ -10,10 +10,20 @@
   padding-top: 10px;    
 }
 
+.flexRowContent{
+  align-items: center;
+  display: flex;
+}
+
+.flexRow--portadas{
+  margin-top: 30px;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+}
 
 .flexRowContent--main{
-  padding: 0 0.5rem;
-  
+  padding: 0 0.5rem; 
 }
 
 @media screen and (min-width: 40em) {
@@ -35,11 +45,10 @@
   color: #fff;
 }
 
-.flexColChild{
+.flexColChild--invite{
   display: flex;
   align-items: left;
-
-  
+  margin-left: 250px;
 }
 
 .flexRowContent--main {
@@ -62,6 +71,16 @@
   background-color: #f0f0f0;
 }
 
+.flexRow--portada1{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.flexRow--portada2{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 0px;
+}
 .flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
   color: #ffffff;
   font-size: 14px;

@@ -1,0 +1,58 @@
+{
+//imagen de fondo para el formulario de cleinte
+  "flex-layout.row#-form":{
+    "children": [
+      "info-card#form"
+    ]
+  },
+  "info-card#form": {
+      "props": {
+      "id": "info-card-example",
+      "isFullModeStyle": true,
+      "textPosition": "CENTER",
+      "imageUrl": "https://facescr.vteximg.com.br/arquivos/fondodiamadres.jpg",
+      "headline": "MAQUÍLLATE EN 15 MINUTOS",
+      "callToActionText": "ENVIAR DATOS",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-form",
+      "textAlignment": "center",
+      "textMode":"subhead",
+      "subhead":"PARTICIPA DEL MASTERCLASS"
+    }
+  },
+
+
+
+
+
+/* 
+  "image#desktop-form": {
+    "blocks":["rich-text#title-form"],
+    "props": {
+      "src": "https://facescr.vteximg.com.br/arquivos/fondodiamadres.jpg",
+      "link": {
+        "url": ""
+      } ,
+      "colSizing": "equal",
+      "colGap": "5",
+      "blockClass":"img-form"
+      
+    }
+  },
+  "image#mobile-form": {
+    "props": {
+      "src": "https://facescr.vteximg.com.br/arquivos/fondodiamadres.jpg",
+      "link": {
+        "url": ""
+      } ,
+      "blockClass":"img-form"
+    }
+  },*/
+  "rich-text#title-form":{
+    "props":{
+        "text":"PARTICIPA DEL MASTERCLASS",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER"
+    }
+  }
+}

@@ -14,15 +14,21 @@
   display:flex;
 }
 
+.infoCardContainer--info-card-form{
+  min-height:500px;
+  max-width: 1200px;
+  display: flex;
+}
+
 .imageElement--portFinal{
-  
+  min-width: 1920px;
   height: 600px;
   width: 1920px;
   display: flex;
 
 }
 .newsletter {
-  background-color: #edeef8;
+  background-color: #cf8f7fc7;
   max-width: 1528px;
   margin: 0 auto;
 }
@@ -123,6 +129,7 @@
 
 .searchBarContainer{
   min-width: 625px;
+  padding-top: 40px;
   
 }
 

@@ -5,17 +5,19 @@
       "rich-text#anuncio",
       "flex-layout.row#invite",
       "flex-layout.col#invite",
-    //  "rich-text#favorite",
-    //  "list-context.image-list#lista-imagens",
       "rich-text#shelf-title",
-      "flex-layout.row#shelf",//shelf de imagenes con precios + boton
-    //  "flex-layout.row#deals", en un carrosel van pasando iconos rapidamente
+      "flex-layout.row#shelf",
+      "flex-layout.row#-form",//formulario
       
+    
+      //shelf de imagenes con precios + boton
+    //  "flex-layout.row#deals", en un carrosel van pasando iconos rapidamente
       "rich-text#shelf-title2",
       "flex-layout.row#shelf2",
       "flex-layout.row#portada1",
       "flex-layout.row#portada2",
-      "flex-layout.row#portadaFinal"
+      "flex-layout.row#portadaFinal",
+      "newsletter"
 
     ]
   },
@@ -71,14 +73,17 @@
   },
 
   "flex-layout.col#invite": {
-    "children": ["image#chanel"]
+    "children": ["image#chanel"],
+    "props":{
+      "blockClass":"invite"
+    }
   },
-
+  
   "image#chanel": {
     "props": {
       "src": "https://facescr.vteximg.com.br/arquivos/ids/171937/Faces.png?v=637901341309100000"
-      
     }
+    
   },
   "rich-text#favorite": {
     "props": { 
@@ -93,17 +98,22 @@
 
   // IMAGEN portadas
   "flex-layout.row#portada1": {
-    "children": ["image#portada1"]
-  },
-  
+    "children": ["image#portada1"],
+    "props":{
+      "blockClass":"portada1"
+    }
+  },  
   "image#portada1": {
     "props": {
-      "src": "https://facescr.vteximg.com.br/arquivos/ids/171938/faces-masterclass02-banner-1920x600-dior.jpg?v=637901481206800000"
-      
+      "src": "https://facescr.vteximg.com.br/arquivos/ids/171938/faces-masterclass02-banner-1920x600-dior.jpg?v=637901481206800000",
+    "blockClass":"port1"  
     }
   },
   "flex-layout.row#portada2": {
-    "children": ["image#portada2", "image#portada3", "image#portada4", "image#portada5"]
+    "children": ["image#portada2", "image#portada3", "image#portada4", "image#portada5"],
+    "props":{
+      "blockClass":"portadas"
+    }
   },  
   "image#portada2": {
     "props": {
@@ -128,15 +138,14 @@
     }
   },
   "flex-layout.row#portadaFinal": {
-    "children": ["image#portadaFinal"]
-   },
-  
+    "children": ["image#portadaFinal"],  
+    "props":{
+      "blockClass":"portadafinal"  
+    }
+  },
   "image#portadaFinal": {
     "props": {
-      "src": "https://facescr.vteximg.com.br/arquivos/ids/171945/consientete.png?v=637901555901970000",
-    "blockClass":"Portfinal"
-    }
-    
+      "src": "https://facescr.vteximg.com.br/arquivos/ids/171945/consientete.png?v=637901555901970000"   
+    }  
   }
-
 }
