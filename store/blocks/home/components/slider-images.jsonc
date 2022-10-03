@@ -1,35 +1,36 @@
 {
-    "list-context.image-list#lista-imagens": {
-      "children": ["slider-layout#lista-imagens"],
-      "props": {
-        "height": 500,
-        "images": [
-          {
-            "image": "https://facescr.vteximg.com.br/arquivos/ids/169619-292-292/3348901550833_1.jpg?v=637630040165100000",
-            "mobileImage": "https://facescr.vteximg.com.br/arquivos/ids/169619-292-292/3348901550833_1.jpg?v=637630040165100000-mobile.jpg"
-          },
-          {
-            "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
-            "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
-          },
-          {
-            "image": "https://via.placeholder.com/2880x1382?text=banner-01",
-            "mobileImage": "https://via.placeholder.com/400x400?text=banner-01"
-          }
-        ]
-      }
-    },
-    "slider-layout#lista-imagens": {
-      "props": {
-        "itemsPerPage": {
-          "desktop": 3,
-          "tablet": 1,
-          "phone": 1
+  "list-context.image-list#lista-imagens": {
+    "children": [
+      "slider-layout#lista-imagens"
+    ],
+    "props": {
+      "height": 500,
+      "images": [
+        {
+          "image": "https://facescr.vteximg.com.br/arquivos/ids/169619-292-292/3348901550833_1.jpg?v=637630040165100000",
+          "mobileImage": "https://facescr.vteximg.com.br/arquivos/ids/169619-292-292/3348901550833_1.jpg?v=637630040165100000-mobile.jpg"
         },
-        "infinite": true,
-        "showNavigationArrows": "desktopOnly",
-        "blockClass": "carousel"
-      }
+        {
+          "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        },
+        {
+          "image": "https://via.placeholder.com/2880x1382?text=banner-01",
+          "mobileImage": "https://via.placeholder.com/400x400?text=banner-01"
+        }
+      ]
+    }
+  },
+  "slider-layout#lista-imagens": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
     }
   }
-  
+}

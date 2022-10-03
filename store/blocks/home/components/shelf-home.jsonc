@@ -1,78 +1,76 @@
 {
-    "rich-text#shelf-title": {
-      "props": {
-        "text": "## Favoritos de la clase ##",
-        "textAlignment": "CENTER",
-        "textPosition": "CENTER",
-        "blockClass": "shelfTitle"
-      }
-    },
-    "flex-layout.row#shelf": {
-      "children": ["list-context.product-list#demo1"]
-    },
-  
-    // ------------------------------------------
-    "list-context.product-list#demo1": {
-      "blocks": [
-        "product-summary.shelf"
+  "rich-text#shelf-title": {
+    "props": {
+      "text": "## Favoritos de la clase ##",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#shelf": {
+    "children": [
+      "list-context.product-list#demo1"
+    ]
+  },
+  // ------------------------------------------
+  "list-context.product-list#demo1": {
+    "blocks": [
+      "product-summary.shelf"
     ],
-      "children": [
-        "slider-layout#demo-products"
-        
-        ],
-      "props": {
-        "orderBy": "OrderByTopSaleDESC"
-      }
-    },
-    "slider-layout#demo-products": {
-      "props": {
-        "itemsPerPage": {
-          "desktop": 5,
-          "tablet": 3,
-          "phone": 1
-        },
-        "infinite": true,
-        "fullWidth": false,
-        "blockClass": "shelf"
-      }
-    },
-    "rich-text#shelf-title2": {
-        "props": {
-          "text": "## FAVORITOS DE SKIN CARE ##",
-          "textAlignment": "CENTER",
-          "textPosition": "CENTER",
-          "blockClass": "shelfTitle"
-        }
+    "children": [
+      "slider-layout#demo-products"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
       },
-      "flex-layout.row#shelf2": {
-        "children": ["list-context.product-list#demo1"]
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+  "rich-text#shelf-title2": {
+    "props": {
+      "text": "## FAVORITOS DE SKIN CARE ##",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#shelf2": {
+    "children": [
+      "list-context.product-list#demo1"
+    ]
+  },
+  // ------------------------------------------
+  "list-context.product-list#demo2": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#demo-products"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#demo-products2": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
       },
-    
-      // ------------------------------------------
-      "list-context.product-list#demo2": {
-        "blocks": [
-          "product-summary.shelf"
-      ],
-        "children": [
-          "slider-layout#demo-products"
-          
-          ],
-        "props": {
-          "orderBy": "OrderByTopSaleDESC"
-        }
-      },
-      "slider-layout#demo-products2": {
-        "props": {
-          "itemsPerPage": {
-            "desktop": 5,
-            "tablet": 3,
-            "phone": 1
-          },
-          "infinite": true,
-          "fullWidth": false,
-          "blockClass": "shelf"
-        }
-      }
-  
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
   }
-  
+}

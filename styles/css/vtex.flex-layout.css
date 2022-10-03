@@ -44,11 +44,17 @@
   background-color: #05010a;
   color: #fff;
 }
-
 .flexColChild--invite{
-  display: flex;
-  align-items: left;
-  margin-left: 250px;
+  margin-left: 300px;
+  min-block-size: auto;
+  min-width: none;
+}
+
+
+
+.flexColChild--invite-container{
+  max-width: 1200px;
+  
 }
 
 .flexRowContent--main {

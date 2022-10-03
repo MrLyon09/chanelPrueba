@@ -14,16 +14,17 @@
   display:flex;
 }
 
-.infoCardContainer--info-card-form{
-  min-height:500px;
-  max-width: 1200px;
+
+.imageElement--port1{
+  height: auto;
   display: flex;
+  width:min-content;
 }
 
 .imageElement--portFinal{
-  min-width: 1920px;
-  height: 600px;
-  width: 1920px;
+  
+  height: auto;
+  width: auto;
   display: flex;
 
 }

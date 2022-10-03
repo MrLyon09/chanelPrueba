@@ -1,12 +1,15 @@
 {
-//imagen de fondo para el formulario de cleinte
-  "flex-layout.row#-form":{
+  //imagen de fondo para el formulario de cleinte
+  "flex-layout.row#form": {
     "children": [
       "info-card#form"
-    ]
+    ],
+    "props": {
+      "blockClass": "form"
+    }
   },
   "info-card#form": {
-      "props": {
+    "props": {
       "id": "info-card-example",
       "isFullModeStyle": true,
       "textPosition": "CENTER",
@@ -14,18 +17,12 @@
       "headline": "MAQUÍLLATE EN 15 MINUTOS",
       "callToActionText": "ENVIAR DATOS",
       "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-form",
       "textAlignment": "center",
-      "textMode":"subhead",
-      "subhead":"PARTICIPA DEL MASTERCLASS"
+      "textMode": "subhead",
+      "subhead": "PARTICIPA DEL MASTERCLASS"
     }
   },
-
-
-
-
-
-/* 
+  /* 
   "image#desktop-form": {
     "blocks":["rich-text#title-form"],
     "props": {
@@ -48,11 +45,11 @@
       "blockClass":"img-form"
     }
   },*/
-  "rich-text#title-form":{
-    "props":{
-        "text":"PARTICIPA DEL MASTERCLASS",
-        "textAlignment": "CENTER",
-        "textPosition": "CENTER"
+  "rich-text#title-form": {
+    "props": {
+      "text": "PARTICIPA DEL MASTERCLASS",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
     }
   }
 }
