@@ -10,10 +10,15 @@
   display:flex;
 }
 
+.imageElement--imgForm{
+  display: flex;
+  width: 1140px;
+  height: 388px;
+}
+
 .imageElement {
   display:flex;
 }
-
 
 .imageElement--port1{
   height: auto;
@@ -129,8 +134,9 @@
 }
 
 .searchBarContainer{
-  min-width: 625px;
-  padding-top: 40px;
+  min-width: 513px;
+  min-height: 36px;
+  align-items: center;
   
 }
 

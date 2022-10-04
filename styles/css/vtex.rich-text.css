@@ -1,5 +1,5 @@
 .imageElement--imgTop{
-    aspect-ratio: auto 1280 / 402;
+    aspect-ratio: auto 1282 / 402;
 }
 
 .paragraph--anuncioHome{
@@ -19,4 +19,5 @@
     font-size: 18px;
     font-family: "GothamBook";
     color:rgb(67, 3, 9);
+    flex-wrap: wrap;
 }

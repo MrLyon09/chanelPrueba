@@ -1,3 +1,48 @@
+
+.container--sticky-header{
+  
+  margin-right: 350px;
+  margin-top: 10px;
+  justify-content:flex-start;
+  max-width: 1528px;
+}
+
+.flexRowContent--main {
+  background-color: #f0f0f0;
+  max-width: 960px;
+  max-height: 200px;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: 202px;
+  margin-right: 300px;
+  display: flex;
+  
+}
+
+.flexRowContent--main2 {
+  background-color: #cf8f7fc7;
+  justify-content: left;
+  align-items: center;
+  max-width: 1060px;
+  display: flex;
+  margin-left: 202px;
+  margin-right: 300px;
+}
+
+.flexRow--main2{
+  flex-wrap: nowrap;
+  justify-content: left;
+  align-items: center;
+
+}
+
+.flexCol--body{
+  margin-left: 100px;
+  margin-right: 100px; 
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
 .flexRowContent--menu-link{
   color: white;
   text-align: center;
@@ -20,11 +65,9 @@
   margin-bottom: 40px;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
-.flexRowContent--main{
-  padding: 0 0.5rem; 
-}
 
 @media screen and (min-width: 40em) {
   .flexRowContent--menu-link,
@@ -44,33 +87,14 @@
   background-color: #05010a;
   color: #fff;
 }
-.flexColChild--invite{
-  margin-left: 300px;
-  min-block-size: auto;
-  min-width: none;
+
+.flexRowContent--invite-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-
-
-.flexColChild--invite-container{
-  max-width: 1200px;
-  
-}
-
-.flexRowContent--main {
-  background-color: #f0f0f0;
-  text-align: center;
-    margin: 0 auto;
-    max-width: 1700px;
-}
-
-.flexRowContent--main2 {
-  background-color: #cf8f7fc7;
-  text-align: center;
-    margin: 0 auto;
-    max-width: 1700px;
-
-}
 .flexRowContent--main-mobile {
   align-items: center;
   padding: 0.625rem 0.5rem;
@@ -94,7 +118,7 @@
 
 .flexRowContent--main :global(.vtex-menu-2-x-styledLink) {
   color: #727273;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .flexRow--deals {
@@ -115,6 +139,10 @@
 .flexCol--filterCol {
   max-width: 500px;
   min-width: 230px;
+}
+
+.flexRow--container-form {
+  display: flex;
 }
 
 .flexCol--productCountCol {

@@ -1,12 +1,15 @@
 {
   "header": {
     "blocks": [
-    "header-layout.desktop",
-    "header-layout.mobile"
-  ]
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
   },
   "header.full": {
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
   },
   "header-layout.desktop": {
     "children": [
@@ -15,14 +18,14 @@
       "sticky-layout#4-desktop"
     ]
   },
-
   "flex-layout.row#1-desktop": {
-    "children": ["telemarketing"],
+    "children": [
+      "telemarketing"
+    ],
     "props": {
       "fullWidth": true
     }
   },
-
   "flex-layout.row#3-desktop": {
     "props": {
       "blockClass": "menu-link",
@@ -34,7 +37,6 @@
     "children": [
       "vtex.menu@2.x:menu#websites"
     ]
-
   },
   "sticky-layout#4-desktop": {
     "props": {
@@ -43,11 +45,10 @@
     "children": [
       "flex-layout.row#4-desktopSearch",
       "flex-layout.row#4-desktop"
-
-  ]
+    ]
   },
-  "flex-layout.row#4-desktopSearch":{
-    "props":{
+  "flex-layout.row#4-desktopSearch": {
+    "props": {
       "blockClass": "main",
       "horizontalAlign": "left",
       "verticalAlign": "center",
@@ -62,8 +63,7 @@
       "login",
       "minicart.v2"
     ]
-    },
-
+  },
   "flex-layout.row#4-desktop": {
     "props": {
       "blockClass": "main2",
@@ -74,16 +74,16 @@
       "fullWidth": true
     },
     "children": [
-
       "flex-layout.col#category-menu"
-
     ]
   },
   "flex-layout.col#logo-desktop": {
     "props": {
       "verticalAlign": "middle"
     },
-    "children": ["logo#desktop"]
+    "children": [
+      "logo#desktop"
+    ]
   },
   "flex-layout.col#category-menu": {
     "props": {
@@ -91,7 +91,6 @@
     },
     "children": [
       "vtex.menu@2.x:menu#category-menu"
-
     ]
   },
   "logo#desktop": {
@@ -99,15 +98,19 @@
       "title": "Logo",
       "href": "/",
       "url": "https://cr.faces.com/arquivos/facesLogoOriginal3.png?v=637928130704900000",
-      "width": "180",
-      "height": "100"
+      "width": "92.3333",
+      "height": "55.4"
     }
   },
   "header-layout.mobile": {
-    "children": ["sticky-layout#1-mobile"]
+    "children": [
+      "sticky-layout#1-mobile"
+    ]
   },
   "sticky-layout#1-mobile": {
-    "children": ["flex-layout.row#1-mobile"]
+    "children": [
+      "flex-layout.row#1-mobile"
+    ]
   },
   "flex-layout.row#1-mobile": {
     "children": [
@@ -124,9 +127,10 @@
     }
   },
   "drawer": {
-    "children": ["menu#drawer"]
+    "children": [
+      "menu#drawer"
+    ]
   },
-
   "menu#drawer": {
     "children": [
       "menu-item#category-home-mas vendidos",
@@ -136,7 +140,6 @@
       "orientation": "vertical"
     }
   },
-
   "logo#mobile": {
     "props": {
       "title": "Logo",

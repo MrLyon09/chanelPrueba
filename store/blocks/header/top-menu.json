@@ -7,6 +7,7 @@
   },
   "menu-item#shop": {
     "props": {
+      "blockClass":"cabecera",
       "id": "menu-top",
       "type": "custom",
       "iconId": null,
@@ -21,7 +22,6 @@
         "textPosition":"CENTER",
         "font":"t-heading-2",
         "textColor":"c-on-emphasis"
-
       }
     }
   }

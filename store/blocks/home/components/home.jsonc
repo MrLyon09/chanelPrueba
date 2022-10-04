@@ -2,9 +2,21 @@
   "store.home": {
     "blocks": [
       "flex-layout.row#top",
+      "flex-layout.col#body"
+      
+    ]  
+  },
+  "flex-layout.row#top": {
+    "children": [
+      "flex-layout.col#body"
+    ]
+  },
+
+  "flex-layout.col#body":{
+    "children": [
+      "image#desktopTop",
       "rich-text#anuncio",
       "flex-layout.row#invite",
-      "flex-layout.col#invite",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
       "flex-layout.row#form",
@@ -14,13 +26,13 @@
       "flex-layout.row#portada2",
       "flex-layout.row#portadaFinal",
       "newsletter"
-    ]
+  ],
+    "props":{
+      "blockClass":"body"
+    }
   },
-  "flex-layout.row#top": {
-    "children": [
-      "image#desktopTop"
-    ]
-  },
+//creamos contenedor para body  
+
   "image#desktopTop": {
     "props": {
       "src": "https://facescr.vteximg.com.br/arquivos/ids/163066/desktop.jpg?v=637904689417000000",

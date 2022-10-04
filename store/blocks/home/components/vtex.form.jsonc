@@ -1,6 +1,26 @@
 {
-  //imagen de fondo para el formulario de cleinte
   "flex-layout.row#form": {
+    "children": [
+      "image#desktopForm"
+    ],
+    "props": {
+      "blockClass": "container-form"
+    }
+  },
+  "image#desktopForm": {
+    "props": {
+      "src": "https://facescr.vteximg.com.br/arquivos/fondodiamadres.jpg",
+      "blockClass": "imgForm"
+    }
+  },
+  "image#mobileForm": {
+    "props": {
+      "src": "https://facescr.vteximg.com.br/arquivos/fondodiamadres.jpg",
+      "blockClass": "imgForm"
+    }
+  },
+  //imagen de fondo para el formulario de cleinte
+  /*  "flex-layout.row#form": {
     "children": [
       "info-card#form"
     ],
@@ -19,7 +39,8 @@
       "callToActionUrl": "/sale/d",
       "textAlignment": "center",
       "textMode": "subhead",
-      "subhead": "PARTICIPA DEL MASTERCLASS"
+      "subhead": "PARTICIPA DEL MASTERCLASS",
+      "blockClass":"form-home"
     }
   },
   /* 
