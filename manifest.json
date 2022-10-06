@@ -1,6 +1,6 @@
 {
   "vendor": "johnmartinez",
-  "name": "chanel1",
+  "name": "chanel",
   "version": "0.0.1",
   "builders": {
     "styles": "2.x",

@@ -1,5 +1,16 @@
 .slideChildrenContainer--shelf{
     background:chocolate;
+    display: flex;  
+}
+
+.buyButton--shelfUp{
+    background: rgb(216, 4, 4);
+    border-radius:0px;
+    width: 124.8px;
+    height: 36px;
     display: flex;
-    
+}
+.image--shelfUp{
+    width: 166px;
+    height: 166px;
 }
