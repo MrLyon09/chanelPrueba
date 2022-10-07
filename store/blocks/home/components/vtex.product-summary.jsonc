@@ -23,8 +23,8 @@
     },
     "product-summary-buy-button": {
         "props": {
-            "buyButtonText": "AGREGAR",
-            "blockClass": "ShelfUP"
+            "buyButtonText": "YO",
+            "blockClass": "shelfUp"
         }
     }
 }

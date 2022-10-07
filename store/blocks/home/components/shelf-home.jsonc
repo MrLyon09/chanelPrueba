@@ -10,7 +10,10 @@
   "flex-layout.row#shelf": {
     "children": [
       "list-context.product-list#demo1"
-    ]
+    ],
+    "props":{
+      "blockClass":"shelf01"
+    }
   },
   
   "list-context.product-list#demo1": {
@@ -23,7 +26,7 @@
     "props": {
       "orderBy": "OrderByTopSaleDESC"
     }
-  },//ESTE ES EL SHELF QUE MUESTRA LAS IMAGENES del primer shelf
+  },//ESTE ES EL SHELF QUE MUESTRA LAS IMAGENES DEL PRIMER SHELF
   "slider-layout#demo-products": {
     "props": {
       "itemsPerPage": {
@@ -47,7 +50,10 @@
   "flex-layout.row#shelf2": {
     "children": [
       "list-context.product-list#demo2"
-    ]
+    ],
+    "props":{
+      "blockClass":"shelf02"
+    }
   },
   
   "list-context.product-list#demo2": {

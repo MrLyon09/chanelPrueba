@@ -3,14 +3,17 @@
     display: flex;  
 }
 
-.buyButton--shelfUp{
-    background: rgb(216, 4, 4);
-    border-radius:0px;
+.buyButtonContainer--shelfUp :global(.vtex-button){
+    background: black;
+    border-radius: 0;
+    border-color: black;
     width: 124.8px;
     height: 36px;
-    display: flex;
 }
+
 .image--shelfUp{
     width: 166px;
     height: 166px;
 }
+
+

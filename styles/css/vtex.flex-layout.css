@@ -141,6 +141,14 @@
   min-width: 230px;
 }
 
+.flexRow--shelf01{
+  background: rgb(243, 210, 202);
+}
+
+.flexRow--shelf02{
+  background: peachpuff;
+}
+
 .flexRow--container-form {
   display: flex;
 }
