@@ -5,26 +5,13 @@
     ],
     "props": {
       "height": 250,
-      "images": [
-/*        {
-          "image": "https://facescr.vteximg.com.br/arquivos/ids/169619-292-292/3348901550833_1.jpg?v=637630040165100000",
-          "mobileImage": "https://facescr.vteximg.com.br/arquivos/ids/169619-292-292/3348901550833_1.jpg?v=637630040165100000-mobile.jpg"
-        },
-        {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
-        },
-        {
-          "image": "https://via.placeholder.com/2880x1382?text=banner-01",
-          "mobileImage": "https://via.placeholder.com/400x400?text=banner-01"
-        }
-  */   ]
+      "images": []
     }
   },
   "slider-layout#lista-images": {
     "props": {
       "itemsPerPage": {
-        "desktop": 5,
+        "desktop": 2,
         "tablet": 1,
         "phone": 1
       },

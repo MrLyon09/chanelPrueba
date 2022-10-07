@@ -1,5 +1,5 @@
 {
-  "rich-text#shelf-title": {
+  "rich-text#favorito": {
     "props": {
       "text": "## Favoritos de la clase ##",
       "textAlignment": "CENTER",
@@ -12,7 +12,7 @@
       "list-context.product-list#demo1"
     ]
   },
-  // ------------------------------------------
+  
   "list-context.product-list#demo1": {
     "blocks": [
       "product-summary.shelf"
@@ -23,7 +23,7 @@
     "props": {
       "orderBy": "OrderByTopSaleDESC"
     }
-  },
+  },//ESTE ES EL SHELF QUE MUESTRA LAS IMAGENES del primer shelf
   "slider-layout#demo-products": {
     "props": {
       "itemsPerPage": {
@@ -36,7 +36,7 @@
       "blockClass": "shelf"
     }
   },
-  "rich-text#shelf-title2": {
+  "rich-text#favorito2": {
     "props": {
       "text": "## FAVORITOS DE SKIN CARE ##",
       "textAlignment": "CENTER",
@@ -46,25 +46,25 @@
   },
   "flex-layout.row#shelf2": {
     "children": [
-      "list-context.product-list#demo1"
+      "list-context.product-list#demo2"
     ]
   },
-  // ------------------------------------------
+  
   "list-context.product-list#demo2": {
     "blocks": [
       "product-summary.shelf"
     ],
     "children": [
-      "slider-layout#demo-products"
+      "slider-layout#demo2-products"
     ],
     "props": {
       "orderBy": "OrderByTopSaleDESC"
     }
-  },
-  "slider-layout#demo-products2": {
+  },//ESTE ES EL SHELF QUE MUESTRA LAS IMAGENES DEL SEGUNDO SHELF
+  "slider-layout#demo2-products": {
     "props": {
       "itemsPerPage": {
-        "desktop": 5,
+        "desktop": 4,
         "tablet": 3,
         "phone": 1
       },
