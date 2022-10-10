@@ -17,14 +17,15 @@
     "product-summary-image": {
         "props": {
             "showBadge": true,
-            "height": 220,
+            
             "blockClass": "shelfUp"
         }
     },
     "product-summary-buy-button": {
         "props": {
-            "buyButtonText": "YO",
-            "blockClass": "shelfUp"
+            "buyButtonText": "AGREGAR",
+            "blockClass": "textButton"
         }
     }
+
 }

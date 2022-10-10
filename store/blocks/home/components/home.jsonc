@@ -1,7 +1,7 @@
 {
   "store.home": {
   // MARGEN LEFT Y RIGHT DEL BODY
-/*    "blocks": [
+    "blocks": [
       "flex-layout.row#top",
       "flex-layout.col#body"
       
@@ -13,7 +13,7 @@
     ]
   },
 
-  "flex-layout.col#body":{*/
+  "flex-layout.col#body":{
     "children": [
       "image#desktopTop",
       "rich-text#anuncio",
